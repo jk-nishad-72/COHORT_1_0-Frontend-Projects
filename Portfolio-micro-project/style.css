@@ -1,0 +1,23 @@
+ @font-face {
+    font-family: CHACHA;
+    src: url(/DAY_10_TailWindCSS/Portfolio-micro-project/helvetica-255/Helvetica.ttf);
+ } 
+  
+  
+  *{
+    margin:0%;
+    padding:0%;
+ box-sizing:border-box;
+ font-family:CHACHA;
+}
+
+html,body{
+     height:100%;
+     width: 100%;
+     background-color:black;
+     color: lightseagreen;
+}
+h1{
+
+    font-size:10rem ;
+}

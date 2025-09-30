@@ -1,0 +1,27 @@
+
+
+ 1.Introduction of (Tailwind css?) 
+=> Benefits of using tailwind CSS that we easily style on 
+customized our HTML elements without leaving html files with the 
+help of the classes
+
+=> Not like bootstraP (
+
+ AddS a lot of extra code and file to your 
+ website,Which can affect its performance 
+ and loading speed
+)
+
+2. using Play CDN.{
+Play CDN is used to taste tailwind in the
+ browser without requiring any build steps 
+ and is not recommended for production
+}
+
+3.....Create navbar
+
+4.Installation for production{
+
+    1=> go to tailwindcss web -> get start->
+    2=>  click Using Postcss (Installation process is given in website) 
+}
