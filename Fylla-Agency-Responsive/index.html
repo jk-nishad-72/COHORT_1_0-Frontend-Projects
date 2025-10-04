@@ -13,17 +13,20 @@
 
 
     <div id="main" class="w-full   border-1 px-[1rem] py-[1rem] relative">
+
+
         <!--naav-bar  -->
-        <nav class="w-full h-[5rem] flex justify-between px-[1rem] py-[2em]">
+        <nav class="w-full lg:h-[5rem] flex items-center justify-between lg:px-[1rem] lg:py-[2rem] ">
 
 
-            <div class="nav-left lg:w-[5rem] w-10 h-full flex items-center ">
-                <img src="nav-image01.svg" class="object-cover px-[15px] py-[15px]">
+            <div class="nav-left lg:w-[5rem] w-20 h-full flex items-center ">
+                <img src="nav-image01.svg" class="object-cover p-[1rem] lg:px-[15px] lg:py-[15px]">
                 <h1 class="text-2xl text-bold">FYLLA</h1>
             </div>
 
-            <div class="nav-right flex items-center justify-between gap-[20px] w-[65%] ">
-                <div class="gap-[20px] w-full flex items-center  justify-evenly">
+           <div class="flex  gap-2 ">
+              <div class="nav-right hidden lg:block flex items-center justify-between gap-[20px] ">
+                <div class="gap-[20px] w-full flex items-center   justify-evenly">
 
                     <a href="" class="uppercase text-sm tracking-widest ">Services</a>
                     <a href="" class="uppercase text-sm tracking-widest ">Work</a>
@@ -37,49 +40,56 @@
                     <a class="border-1 rounded-[50%] px-[9px] -ml-3   py-[7px] text-xs">PI</a>
                     <a class=" border-1 rounded-[50%] px-[6px]  -ml-3  py-[7px] text-xs">TW</a>
                     <div class=" w-[0.50px] bg-[#191919] h-[2rem]"></div>
-                    <img src="day-mode.svg" class=" border-1 rounded-[20px] px-[15px]  -ml-3  py-[7px] text-xs">
                 </div>
+                
             </div>
 
+             <div class=" flex items-center gap-3 ">
+                    <img src="day-mode.svg" class=" border-1 rounded-[1.5rem]  px-[1.4rem] py-[.6rem] text-lg">
+                     <i class=" lg:hidden ri-menu-fill text-4xl font-thin "></i>
+                 </div>
+           </div>
 
         </nav>
+           
+        <div class="w-[98%] h-[1px] bg-[#191919] px-[2rem] mt-5 lg:ml-5"></div>
 
 
-          <!--    -->
-        <div class="w-[98%] h-[1px] bg-[#191919] px-[2rem] mt-5 ml-5"></div>
-
-
-        <!-- hero-section 1 -->
-        <section class="w-full px-[2rem] relative">
+        <section class="w-full lg:px-[2rem] relative">
 
             <p class="mt-15 text-ms ">ABOUT US</p>
-            <h1 class="text-8xl w-[50%] mt-7">Creative studio
+            <h1 class="text-8xl font-light lg:font-normal lg:w-[50%] mt-7">Creative studio
                 that inspires.</h1>
             <img src="https://framerusercontent.com/images/gMa1QTwfTREWorQeS8C1FpL4t8.webp?scale-down-to=2048"
-                class=" h-[80vh] ml-5 mt-15 rounded-lg object-cover overflow-hidden" alt="">
+                class=" lg:h-[80vh] h-50  lg:ml-5 mt-15 rounded-lg object-cover overflow-hidden" alt="">
 
         </section>
 
-        <!-- section-2 -->
-        <section class="w-full  flex  relative  gap-10 px-10 py-10">
 
-            <div class="w-[62%] tracking-tighter relative ">
+
+       
+        <section class="w-full  flex flex-col lg:flex-row relative    gap-10 lg:px-10 lg:py-10 ">
+
+            <div class=" lg:w-[62%] w-full tracking-tighter relative ">
                 <p class="text-sm  mt-10"> OUR VALUES </p>
-                <h1 class="text-[5.1rem] leading-none mt-5 align-left ">Our vision is to connect with the world trough
+                <h1 class=" lg:text-[5.1rem] text-[3.5rem] leading-none mt-5 align-left ">Our vision is to connect with the world trough
                     innovation.
                 </h1>
+
                 <button
-                    class="px-3 py-[0.3REM] tracking-widest text-md border-1 text-white bg-black rounded-md absolute bottom-1 -ml-2 ">OUR
+                    class="px-3 py-[0.3REM] tracking-widest text-md border-1 text-white bg-black rounded-md absolute lg:bottom-1 mt-3 lg:-ml-2 ">OUR
                     SERVICES </button>
             </div>
 
-            <div class="h-[60rem] w-[1.5px] bg-black mt-10"></div>
+            <div class="h-[60rem] w-[1.5px] hidden lg:block bg-black mt-10"></div>
+            <div class="h-[1px] w-full lg:hidden block bg-black mt-10"></div>
 
-            <div class="w-[32%] flex flex-col gap-[15rem] ">
+            <div class=" lg:w-[32%] w-full flex flex-col gap-4 lg:gap-[15rem] ">
 
-                <div class="w-full h-[4.8rem]  flex gap-4 flex-col mt-10">
+                <div class="w-full lg:h-[4.8rem]   flex gap-4 flex-col lg:mt-10">
+
                     <img src="imge01.svg" class=" w-[70px] py-2 -ml-2">
-                    <h1 class="text-3xl text-bold">VISION</h1>
+                    <h1 class="lg:text-3xl text-bold">VISION</h1>
                     <p class="text-[1rem] w-full  tracking-widest align-left ">
                         Our relentless pursuit of a shared vision fuels our creativity and propels us forward. With
                         clarity
@@ -87,10 +97,12 @@
                         transforming
                         their dreams into reality and shaping a future worth embracing.
                     </p>
+
                     <hr class="mt-10">
+
                 </div>
 
-                <div class="w-full h-[4.8rem]  flex gap-4 flex-col mt-10">
+              <div class="w-full lg:h-[4.8rem]  flex gap-4 flex-col lg:mt-10">
                     <img src="imag2.svg" class=" w-[70px] py-2 -ml-2">
                     <h1 class="text-3xl text-bold">INNOVATION</h1>
                     <p class="text-[1rem] w-full  tracking-widest align-left ">
@@ -99,60 +111,69 @@
                     </p>
                     <hr class="mt-10">
                 </div>
-                <div class="w-full h-[4.8rem]  flex gap-4 flex-col">
+
+                <div class="w-full lg:h-[4.8rem]  flex gap-4 flex-col  ">
+
                     <img src="image3.svg" class=" w-[60px] py-2 -ml-2">
                     <h1 class="text-3xl text-bold">CONNECTION</h1>
                     <p class="text-[1rem] w-full  tracking-widest align-left ">
                         We believe in the power of connection. We strive to build bridges between brands and their
                         audiences, fostering genuine and lasting relationships.
                     </p>
-                </div>
+                </div> 
+
             </div>
+
         </section>
 
-        <div class="w-[98%] h-[1px] bg-[#191919] px-[2rem] mt-5 ml-5"></div>
+        <div class="lg:w-[98%] w-full h-[1px] bg-[#191919] px-[2rem] mt-5 lg:ml-5"></div>
 
 
-        <!-- section-3 -->
-        <section class="w-full h-[100vh] px-2 py-16 flex justify-between">
+     
+        <section class="w-full lg:h-[100vh] px-2 lg:py-16 py-[2rem]  flex flex-col lg:flex-row justify-between">
 
-            <div class="heading w-[30%] h-30 text-8xl px-5 gap-10  sticky  z-[2] top-0 mb-5">
-                <h1 class="text-[3.5rem] leading-none"> OUR <br>TEAM </h1>
-                <p class="text-2xl font-thin mt-5 ">Meet our talented team of creative <br> minds driving innovation</p>
+            <div class="heading lg:w-[30%] lg:h-30 lg:text-8xl w-full lg:px-5 gap-10  lg:sticky  z-[2] top-0 mb-5">
+
+                <h1 class=" lg:text-[3.5rem]  text-4xl leading-none"> OUR <br>TEAM </h1>
+                <p class="lg:text-2xl text-xl font-thin mt-5 ">Meet our talented team of creative <br> minds driving innovation</p>
             </div>
 
+            <div class="h-[90vh] w-[1.5px] hidden lg:block bg-black -mr-20"> </div>
 
-            <div class="h-[90vh] w-[1.5px] bg-black -mr-20"> </div>
 
-            <div class="w-[65%] h-full flex flex-col gap-25 -mr-15">
-                <div class=" w-full  flex gap-13">
-                    <div class="w-[25rem] h-[16rem] ">
+            <div class="lg:w-[65%] w-full  flex flex-col lg:gap-25 lg:-mr-15">
+
+                <div class=" w-full  flex flex-col lg:flex-row gap-13">
+
+                    <div class="lg:w-[25rem] lg:h-[16rem] w-full  ">
                         <video  autoplay  loop muted
                             src="https://framerusercontent.com/assets/EWKyVn3Xgo37TO7FLVqDczx7c.mp4 "
-                            class="w-full h-full   "></video>
+                            class="w-full  h-full   overflow-hidden rounded-[15px] "></video>
                         <h1 class="text-3xl mt-5">Jacob Jones</h1>
                         <p class="mt-3 text-sm">CEO</p>
                     </div>
 
                     
-                    <div class="w-[25rem] h-[16rem] ">
+                    <div class="lg:w-[25rem] lg:h-[16rem] w-full ">
                         <video  autoplay loop muted
                             src="https://framerusercontent.com/assets/6Ghd6mgGRcqS0mJGIwm4ftuIo.mp4 "
                             class="w-full h-full overflow-hidden rounded-[15px]"></video>
                         <h1 class="text-3xl mt-5">Kristin Watson</h1>
                         <p class="mt-3 text-sm">CREATIVE DEVELOPER </p>
                     </div>
+
                 </div>
 
-                <div class=" w-full h-full flex gap-13">
-                    <div class="w-[25rem] h-[16rem] ">
+                <div class=" w-full h-full flex  flex-col lg:flex-row gap-13">
+
+                    <div class="lg:w-[25rem] lg:h-[16rem] ">
                         <video  autoplay  loop muted
                             src="https://framerusercontent.com/assets/4VtDUHNewy4UgoxJDK6CAKSJML4.mp4"
                             class="w-full h-full overflow-hidden rounded-[15px]"></video>
                         <h1 class="text-3xl mt-5">Cameron William</h1>
                         <p class="mt-3 text-sm">VISUAL DESIGNER</p>
                     </div>
-                    <div class="w-[25rem] h-[16rem] ">
+                    <div class="lg:w-[25rem] lg:h-[16rem] ">
                         <video  autoplay loop muted
                             src="https://framerusercontent.com/assets/5AhbWLTN6huw5GjliLjNaZJDWPM.mp4 "
                             class="w-full h-full overflow-hidden rounded-[15px]"></video>
@@ -160,37 +181,52 @@
                         <p class="mt-3 text-sm">CTO </p>
                     </div>
                 </div>
+
+
             </div>
+
+
         </section>
 
-        <div class="w-[98%] h-[1px] bg-[#191919] px-[2rem] mt-10 ml-5"></div>
+        <div class="lg:w-[98%] w-full h-[1px] bg-[#191919] px-[2rem] mt-10 lg:ml-5"></div>
 
-        <!--  section-4 -->
 
-        <section class="w-full h-[90vh] flex  gap-10 px-6 py-14">
+      
+  
+        <section class="w-full lg:h-[90vh] flex flex-col lg:flex-row gap-10 lg:px-6 py-14">
 
-            <div class=" uppercase  relative w-[65%]">
-                <p class=" w-full text-">contact</p>
-                <h1 class=" w-full text-[5rem] leading-none mt-5">Let’s bring your brand to the next level</h1>
-                <img class=" w-20 absolute bottom-1" src="imag2.svg">
+            <div class=" uppercase relative lg:w-[65%] w-full  ">
+
+                <img class="lg:w-20  w-15 absolute lg:bottom-1 bottom-55 " src="imag2.svg">
+
+                <p class="  ">contact</p>
+
+                <h1 class=" lg:text-[5rem] text-[3rem] leading-none lg:mt-5 mt-25  ">Let’s bring your brand to the next level</h1>
             </div>
-            <!-- <div class="h-[80vh] w-[2px] bg-black -mr-20"> </div> -->
 
-            <div class=" border-l-2  w-[30%] relative">
-                <h1 class="text-2xl leading-[1.5] ml-9 w-full">Together, let's elevate your brand to new heights by
-                    unleashing its full potential and captivating your target audience.</h1>
-                <button
-                    class="ml-10 border-1 bg-black rounded-md px-3 py-1 text-white absolute bottom-1 tracking-widest">GET
-                    IN TOUCH</button>
+            <div class="h-[80vh] w-[2px] bg-black mr-20  hidden lg:block"> </div>
+
+            <div class="lg:w-[30%] w-full relative ">
+
+                <h1 class="text-2xl leading-[1.5] font-thin lg:font-normal w-full">Together, let's elevate your brand to new heights by
+                    unleashing its full potential and captivating your target audience.
+                </h1>
+
+                <button class="lg:ml-10 border-1 bg-black rounded-md  px-3 py-1 text-white absolute mt-5 lg:bottom-1 tracking-widest">GET
+                    IN TOUCH
+                </button>
             </div>
+
         </section>
 
-        <div class="w-[98%] h-[1px] bg-[#191919] px-[2rem] mt-10 ml-5"></div>
+        <div class="lg:w-[98%] w-full  h-[1px] bg-[#191919] px-[2rem] mt-10 lg:ml-5"></div>
 
-        <footer class=" w-full h-[58vh]">
+       
+        <footer class=" w-full lg:h-[58vh]  ">
 
-            <main class="flex w-full justify-between">
-                <section class="w- px-6 py-15  flex flex-col  gap-20 ">
+            <main class="flex w-full flex-col lg:flex-row justify-between">
+
+                <section class=" px-6 py-15  flex flex-col  gap-20 ">
                     <div>
                         <h1 class="flex items-center text-2xl gap-5"> <img src="nav-image01.svg " class="w-13"> FYLLA
                         </h1>
@@ -205,8 +241,10 @@
                         <a class="border-1 px-1 py-2 rounded-[50%] text-sm  ml-2">TW</a>
                     </div>
                 </section>
-                <section class="flex gap-20 border-l-2 w-[65%] mt-15 px-10 justify-around h-[17rem]">
-                    <ul class="-ml-10 flex flex-col gap-5  ">
+
+                <section class="flex gap-20 flex-col items-left lg:flex-row lg:w-[65%] w-full mt-15 px-10 justify-around lg:h-[17rem]">
+
+                    <ul class="lg:-ml-10  flex flex-col gap-5 ">
                         <li> <h1 class="text-2xl">Pages</h1> </li>
                         <li class="uppercase text-sm">Home</li>
                         <li class="uppercase text-sm">Services</li>
@@ -215,14 +253,14 @@
                         <li></li>
                         <li class="uppercase"><button class="px-3 py-[0.3REM] tracking-widest text-sm uppercase text-white bg-black rounded-md -ml-2 ">More Templates</button></li>
                     </ul>
-                    <ul class=" flex flex-col gap-5 -ml-30 ">
+                    <ul class=" flex flex-col gap-5 lg:-ml-30 ">
                         <li><h1 class="text-2xl">CMS</h1></li>
                         <li class="uppercase  text-sm">Work</li>
                         <li class="uppercase  text-sm">Work Single</li>
                         <li class="uppercase  text-sm">Blog</li>
                         <li class="uppercase  text-sm">Blog Single</li>
                     </ul>
-                    <ul class=" flex flex-col gap-5 -ml-20">
+                    <ul class=" flex flex-col gap-5 lg:-ml-20">
                         <li>  <h1 class="text-2xl">Utility Pages</h1></li>
                         <li class="uppercase  text-sm">404 Error Page</li>
                         <li class="uppercase  text-sm">Styleguide</li>
@@ -232,44 +270,23 @@
 
                 </section>
             </main>
-            <div class="w-[98%] h-[1px] bg-[#191919] px-[2rem] mt- ml-5"></div>
+
+
+
+            <div class=" lg:w-[98%] w-full h-[1px] bg-[#191919] px-[2rem] hidden lg:block  ml-5"></div>
       
-            <section class="w-full uppercase flex items-center h-[10vh] justify-between px-5 py-2">
+            <section class="w-full uppercase flex items-center h-[10vh] justify-between lg:mt-0 mt-10 lg:text-xl text-sm px-5 py-2">
                 <h1>© Made by  <u>jay kishan</u> </h1>
                 <h2> privacy imprint</h2>
             </section>
              
         </footer>
-
-
-        <!-- hero-section -2 -->
-        <!-- 
-        <section class="w-full h-[80vh] flex relative ">
-
-            <div class=" w-1/2 h-full px-[2rem] py-[2rem]">
-                <h1 class="text-[5.5rem] leading-none text-left px-1 py-12">
-                    We are a digital agency from <br>Lisbon.
-                </h1>
-                <p class="text-2xl  text-left px-1 -mt-8 font-[100] opacity-90">
-                    Elevating brands through creative digital <br>solutions, proudly representing Lisbon's vibrant <br>
-                    innovation.
-                </p>
-                <img class=" w-15  mt-20" src="hero-section-image01.svg" alt="">
-            </div>
-            <div class=" w-1/2 h-full px-[2rem] py-[2rem] mt-6">
-                <video class="w-full h-full object-cover rounded-[15px]" controls
-                    src="https://framerusercontent.com/assets/rXAszXcrH4ELEBbdilxkxdbfmrE.mp4"></video>
-            </div>
-
-
-        </section> -->
-
-       
-
-
-
-
+ 
     </div>
+
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </body>
 
